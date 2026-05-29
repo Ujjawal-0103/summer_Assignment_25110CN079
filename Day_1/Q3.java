@@ -1,19 +1,20 @@
-//Write a program to Calculate sum of first N natural numbers. 
+//Write a program to Find factorial of a number. 
 
 import java.util.*;
-public class first{
+public class Q3{
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter any number: ");
         int n = sc.nextInt();
 
-        int sum = 0;
+        int fact = 1;
         for(int i = 1; i <= n; i++){
-            sum = sum + i;
+            fact = fact*i;
         }
 
-        System.out.print("The sum upto " + n + "th " + "natural number is: ");
-        System.out.print(sum);
+        System.out.print("The factorial is: ");
+        System.out.print(fact);
+
     }
 }
 
