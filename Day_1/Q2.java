@@ -1,4 +1,4 @@
-//Write a program to Print multiplication table of a given number.
+//Write a program to multiplicationPrint  table of a given number.
 
 import java.util.*;
 public class Q2{
