@@ -1,8 +1,13 @@
 //Write a program to Write function for perfect number.
 
-import java.util.*;
+import java.util.Scanner;
 public class Q48{
     public static void isPerfect(int num){
+        if(num <= 0){
+            System.out.println("Please enter a valid positive number.");
+            return;
+        }
+
         int sum = 0;
         //Calculate divisors.
         for(int i = 1; i < num; i++){

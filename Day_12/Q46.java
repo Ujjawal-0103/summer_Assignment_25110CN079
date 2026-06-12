@@ -1,8 +1,13 @@
 //Write a program to Write function for Armstrong.
 
-import java.util.*;
+import java.util.Scanner;
 public class Q46{
     public static void isArmstrong(int num){
+        if(num < 0){
+            System.out.println("Please enter a valid non-negative number.");
+            return;
+        }
+
         int digit = 0;
         int temp = num;
 
