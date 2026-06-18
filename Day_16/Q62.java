@@ -1,7 +1,6 @@
 //Write a program to Find maximum frequency element.
 
-import java.util.Scanner;
-import java.util.HashMap;
+import java.util.*;
 public class Q62{
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
