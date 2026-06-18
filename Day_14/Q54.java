@@ -30,3 +30,4 @@ public class Q54{
         System.out.print("Frequency of " + target + " is: " + count);
     }
 }
+
