@@ -15,6 +15,7 @@ public class Q84{
             }
         }
 
+        System.out.println("Uppercased String:");
         System.out.println(str);
 
         sc.close();
